@@ -61,13 +61,19 @@
       <div class="container">
         <h1>Hello, world!</h1>
 
-        
-    <script type="text/javascript">
-  		$('#getting-started').countdown('2015/01/01', function(event) {
-    	$(this).html(event.strftime('%w weeks %d days %H:%M:%S'));
-  		});
-	</script>
-	<div id="getting-started"></div>
+<script type="text/javascript">
+	
+	 $('#clock').countdown('2020/10/10').on('update.countdown', function(event) {
+   var $this = $(this).html(event.strftime(''
+     + '<span>%-w</span> week%!w '
+     + '<span>%-d</span> day%!d '
+     + '<span>%H</span> hr '
+     + '<span>%M</span> min '
+     + '<span>%S</span> sec'));
+ });
+	 
+</script>>        
+
 
 
 
