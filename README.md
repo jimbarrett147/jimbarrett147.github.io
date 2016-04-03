@@ -1,7 +1,5 @@
-#### jimbarrett147.github.io
+## DEMO
 
-DEMO
-======
 https://jimbarrett147.github.io
 
 ## Synopsis
